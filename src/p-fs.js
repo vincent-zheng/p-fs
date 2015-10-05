@@ -9,8 +9,40 @@ var ErrorStringArr = {
 
 var syncApi = [
 	'renameSync',
-	'ftruncateSync',
 	'truncateSync',
+	'ftruncateSync',
+	'chownSync',
+	'fchownSync',
+	'lchownSync',
+	'chmodSync',
+	'fchmodSync',
+	'lchmodSync',
+	'statSync',
+	'lstatSync',
+	'fstatSync',
+	'linkSync',
+	'symlinkSync',
+	'realpathSync',
+	'unlinkSync',
+	'rmdirSync',
+	'mkdirSync',
+	'readdirSync',
+	'closeSync',
+	'openSync',
+	'utimesSync',
+	'futimesSync',
+	//
+	'fsyncSync',
+	'appendFileSync',
+	//TODO: unknown
+	'watchFileSync',
+	'unwatchFileSync',
+	
+	
+	'existsSync',
+	
+	'accessSync',
+	
 	'readFileSync',
 	'writeFileSync'
 ]
@@ -41,15 +73,15 @@ var asyncApi = [
 	'futimes',
 	'fsync',
 	'appendFile',
-	//@TODO: unknown
+	//TODO: unknown
 	'watchFile',
 	'unwatchFile',
 	
 	
 	'exists',
 	
-	
 	'access',
+	
 	'readFile',
 	'writeFile'
 ]
