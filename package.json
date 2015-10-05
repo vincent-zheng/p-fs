@@ -1,6 +1,6 @@
 {
   "name": "p-fs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Turn the callback style of nodeJS module 'fs' to promise style. ",
   "main": "src/p-fs.js",
   "engines": {
